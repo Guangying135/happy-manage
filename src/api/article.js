@@ -1,10 +1,10 @@
 import request from '@/utils/request'
 
-// 分类：获取文章分类111asasadas
+// 分类：获取文章分类
 export const artGetChannelsService = () => request.get('/my/cate/list')
-// 分类：添加文章分类rweffd
+// 分类：添加文章分类r
 export const artAddChannelService = (data) => request.post('/my/cate/add', data)
-// 分类：编辑文章分类asdasd
+// 分类：编辑文章分类
 export const artEditChannelService = (data) =>
   request.put('/my/cate/info', data)
 // 分类：删除文章分类
