@@ -2,7 +2,7 @@ import request from '@/utils/request'
 
 // 分类：获取文章分类111asasadas
 export const artGetChannelsService = () => request.get('/my/cate/list')
-// 分类：添加文章分类
+// 分类：添加文章分类rweffd
 export const artAddChannelService = (data) => request.post('/my/cate/add', data)
 // 分类：编辑文章分类asdasd
 export const artEditChannelService = (data) =>
